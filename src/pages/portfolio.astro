@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='Portfolio'>
+	<main>
+		<div class="entry">
+			<div class="entry-section left">klsajdflkas</div>
+			<div class="entry-section center">ajkldsajf</div>
+			<div class="entry-section right">jlksadjf</div>
+		</div>
+	</main>
+</Layout>
+
+<style>
+main {
+min-height: 100vh;
+
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+}
+
+.entry {
+margin: 0px;
+padding: 0px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+
+.entry-section {
+flex: 1;
+text-align: center;
+padding: 10px;
+}
+
+.entry-section left {
+
+}
+
+.entry-section center {
+
+}
+
+.entry-section right {
+
+}
+</style>
